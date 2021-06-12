@@ -1,0 +1,22 @@
+{
+    "version": "0.1.2",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/download/v0.1.2/nvidia_gpu_exporter_0.1.2_windows_i386.zip",
+            "bin": [
+                "nvidia_gpu_exporter.exe"
+            ],
+            "hash": "00260dcbd848598564fd7412810efd1da7f04fad16e175e3b919733f4d8406d2"
+        },
+        "64bit": {
+            "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/download/v0.1.2/nvidia_gpu_exporter_0.1.2_windows_x86_64.zip",
+            "bin": [
+                "nvidia_gpu_exporter.exe"
+            ],
+            "hash": "a36dfa36dcbf440ec8955d338db0ef5de5952b696811919eeaeab304652daf14"
+        }
+    },
+    "homepage": "https://github.com/utkuozdemir/nvidia_gpu_exporter",
+    "license": "MIT",
+    "description": "Nvidia GPU exporter for prometheus using nvidia-smi binary"
+}
