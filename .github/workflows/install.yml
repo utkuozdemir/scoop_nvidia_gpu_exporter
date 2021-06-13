@@ -1,0 +1,22 @@
+---
+name: install
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "**.md"
+jobs:
+  install:
+    runs-on: windows-2019
+    steps:
+      - name: Install Scoop
+        run: iwr -useb get.scoop.sh | iex
+      - name: Add scoop to actions path
+        run: Join-Path (Resolve-Path ~).Path "scoop\shims" >> $Env:GITHUB_PATH
+      - name: Scoop bucket add
+        run: scoop bucket add nvidia_gpu_exporter https://github.com/utkuozdemir/scoop_nvidia_gpu_exporter.git
+      - name: Scoop install
+        run: scoop install nvidia_gpu_exporter/nvidia_gpu_exporter
+      - name: Run command
+        run: nvidia_gpu_exporter --help
