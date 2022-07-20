@@ -1,19 +1,19 @@
 {
-    "version": "0.5.0",
+    "version": "1.0.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/download/v0.5.0/nvidia_gpu_exporter_0.5.0_windows_i386.zip",
+            "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/download/v1.0.0/nvidia_gpu_exporter_1.0.0_windows_i386.zip",
             "bin": [
                 "nvidia_gpu_exporter.exe"
             ],
-            "hash": "84dcc2fa67c1f7b7947692bd30ed0020a7fd9462ef17404f95efac8fb35d6898"
+            "hash": "9e0e1944f492bfc22f1d08c7c30cd19f49b083bf65cd352b161e4126a3256706"
         },
         "64bit": {
-            "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/download/v0.5.0/nvidia_gpu_exporter_0.5.0_windows_x86_64.zip",
+            "url": "https://github.com/utkuozdemir/nvidia_gpu_exporter/releases/download/v1.0.0/nvidia_gpu_exporter_1.0.0_windows_x86_64.zip",
             "bin": [
                 "nvidia_gpu_exporter.exe"
             ],
-            "hash": "11d0b73c4ac1f7aa07b47b2fd95533db382f59c33d84dd5594eb3bd268f82d38"
+            "hash": "82ef08c6ad920e263ecd8436354770b2687c619ed8bc8265fb4078e927b95ec0"
         }
     },
     "homepage": "https://github.com/utkuozdemir/nvidia_gpu_exporter",
