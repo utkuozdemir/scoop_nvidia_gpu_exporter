@@ -8,7 +8,7 @@ on:
       - "**.md"
 jobs:
   install:
-    runs-on: windows-2025
+    runs-on: windows-latest
     steps:
       - name: Install Scoop
         run: |
